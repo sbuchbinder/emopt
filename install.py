@@ -145,7 +145,7 @@ def install_petsc(install_dir):
 
     # get PETSc
     print_message('Retrieving PETSc...')
-    call(['git', 'clone', '-b', 'maint', 'https://bitbucket.org/petsc/petsc',
+    call(['git', 'clone', '-b', 'maint', 'https://gitlab.com/petsc/petsc',
           'petsc'])
 
     os.chdir('petsc')
